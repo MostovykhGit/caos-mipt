@@ -2,7 +2,7 @@
 
 
 ## Вывести все файлы из указанной директории
-'''C++
+```C
 int main() {
   DIR* my_dir = opendir("/home/mostovykh/task2/A");
   struct dirent* direntry = readdir(my_dir);
@@ -11,4 +11,4 @@ int main() {
     direntry = readdir(my_dir);
   }
 }
-'''
+```
